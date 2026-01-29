@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #2a2a2a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #ffcc00;
+}
+
+.egg-container {
+    background-color: #3a3a3a;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.egg {
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.egg:hover {
+    transform: scale(1.05);
+}
+
+.egg:active {
+    transform: scale(0.95);
+}
+
+.egg-sprite {
+    font-size: 120px;
+    user-select: none;
+}
+
+.click-counter {
+    margin-top: 20px;
+    font-size: 18px;
+}
